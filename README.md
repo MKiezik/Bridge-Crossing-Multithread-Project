@@ -4,7 +4,8 @@ Wąski most. Z miasta A do miasta B prowadzi droga, na której znajduje się w�
 
 Zsynchronizuj dostęp wątków do mostu:
 
-a) nie wykorzystując zmiennych warunkowych (tylko mutexy/semafory) [17p] 
+a) nie wykorzystując zmiennych warunkowych (tylko mutexy/semafory) [17p]
+
 b) wykorzystując zmienne warunkowe (condition variables) [17p]
 
 Aby móc obserwować działanie programu, każdemu samochodowi przydziel numer. Program powinien wypisywać komunikaty według poniższego przykładu:  

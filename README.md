@@ -2,7 +2,8 @@
 
 Wąski most. Z miasta A do miasta B prowadzi droga, na której znajduje się wąski most umożliwiający tylko ruch jednokierunkowy. Most jest również dość słaby, także może po nim przejeżdżać tylko jeden samochód na raz. Napisać program w którym N samochodów (wątków) będzie nieustannie przejeżdżało z miasta do miasta, pokonując po drodze most (N przekazywane jako argument linii poleceń). 
 
-Zsynchronizuj dostęp wątków do mostu: 
+Zsynchronizuj dostęp wątków do mostu:
+
 a) nie wykorzystując zmiennych warunkowych (tylko mutexy/semafory) [17p] 
 b) wykorzystując zmienne warunkowe (condition variables) [17p]
 
